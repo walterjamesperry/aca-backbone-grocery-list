@@ -1,3 +1,21 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+ul {
+    /* list-style: none; */
+}
+
+.item-info {
+    /* font-size: 14px; */
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    &.activated {
+        border-color: purple;
+    }
+    label {
+        /* font-size: 15px; */
+        font-weight: bold;
+    }
+}
